@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <header>
-      <h1>My Cool API App</h1>
+      <h1>Base API test</h1>
     </header>
     <main>
       <slot />
