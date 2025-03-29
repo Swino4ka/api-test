@@ -12,6 +12,8 @@
   </div>
 </template>
 
+
+
 <style scoped>
 .layout {
   display: flex;
@@ -31,4 +33,5 @@ main {
   padding: 2rem;
   animation: fadeSlide 0.6s ease-in-out;
 }
+
 </style>
