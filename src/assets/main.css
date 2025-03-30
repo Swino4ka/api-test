@@ -1,4 +1,3 @@
-/* ===== RESET ===== */
 *,
 *::before,
 *::after {
@@ -31,7 +30,6 @@ ul {
   padding: 0;
 }
 
-/* ===== LAYOUT HELPERS ===== */
 .container {
   max-width: 1200px;
   margin: 0 auto;

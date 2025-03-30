@@ -15,6 +15,7 @@
 
 
 <style scoped>
+
 .layout {
   display: flex;
   flex-direction: column;

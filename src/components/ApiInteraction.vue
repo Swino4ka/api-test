@@ -6,7 +6,10 @@
   <button class="fetch-btn" @click="fetchData">Fetch API</button>
 </template>
 
+
+
 <script>
+
 import ApiService from '@/services/ApiService';
 
 export default {
@@ -26,7 +29,10 @@ export default {
     }
   }
 };
+
 </script>
+
+
 
 <style scoped>
 .api-box {
