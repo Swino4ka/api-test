@@ -12,8 +12,6 @@
   </div>
 </template>
 
-
-
 <style scoped>
 
 .layout {

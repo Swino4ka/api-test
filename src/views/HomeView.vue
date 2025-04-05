@@ -4,8 +4,6 @@
   </BaseLayout>
 </template>
 
-
-
 <script>
 
 import ApiInteraction from '@/components/ApiInteraction.vue';

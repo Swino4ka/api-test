@@ -7,8 +7,6 @@ const apiClient = axios.create({
   },
 });
 
-
-
 export default {
   get(endpoint, params) {
     return apiClient.get(endpoint, { params });
