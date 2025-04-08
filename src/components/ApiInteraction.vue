@@ -6,30 +6,6 @@
   <button class="fetch-btn" @click="fetchData">Fetch API</button>
 </template>
 
-<script>
-
-import ApiService from '@/services/ApiService';
-
-export default {
-  data() {
-    return {
-      data: null
-    };
-  },
-  methods: {
-    async fetchData() {
-      try {
-        const res = await ApiService.get('/endpoint');
-        this.data = res.data;
-      } catch (err) {
-        console.error('API Error:', err);
-      }
-    }
-  }
-};
-
-</script>
-
 <style scoped>
 .api-box {
   margin: 1rem;
@@ -68,3 +44,27 @@ export default {
   }
 }
 </style>
+
+<script>
+
+import ApiService from '@/services/ApiService';
+
+export default {
+  data() {
+    return {
+      data: null
+    };
+  },
+  methods: {
+    async fetchData() {
+      try {
+        const res = await ApiService.get('/endpoint');
+        this.data = res.data;
+      } catch (err) {
+        console.error('API Error:', err);
+      }
+    }
+  }
+};
+
+</script>
