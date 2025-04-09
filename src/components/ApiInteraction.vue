@@ -7,6 +7,7 @@
 </template>
 
 <style scoped>
+
 .api-box {
   margin: 1rem;
   padding: 1rem;
@@ -43,6 +44,7 @@
     transform: translateY(0);
   }
 }
+
 </style>
 
 <script>
