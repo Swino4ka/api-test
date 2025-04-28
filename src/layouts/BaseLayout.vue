@@ -14,12 +14,6 @@
 
 <style scoped>
 
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 header, footer {
   background: #35495e;
   color: white;
@@ -31,6 +25,12 @@ main {
   flex: 1;
   padding: 2rem;
   animation: fadeSlide 0.6s ease-in-out;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 </style>
