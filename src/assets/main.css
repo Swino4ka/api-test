@@ -28,24 +28,6 @@ ul {
   padding: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
 h1, h2, h3, h4, h5 {
   font-weight: 600;
   line-height: 1.2;
@@ -78,6 +60,24 @@ button {
   background-color: #2c9e6f;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
 .card {
   background: white;
   border-radius: 10px;
@@ -88,6 +88,10 @@ button {
 
 .card:hover {
   transform: translateY(-4px);
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in-out forwards;
 }
 
 .fade-slide {
@@ -103,10 +107,6 @@ button {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.fade-in {
-  animation: fadeIn 0.4s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
